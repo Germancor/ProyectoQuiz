@@ -1,9 +1,10 @@
+#Versión 1.5
 preguntasNivel1 = [
-    "1-¿Cuál es el nombre actual del estadio/casa del Manchester City?",
-    "2-¿En que año se fundó el club?",
-    "3-¿Cuál es el apodo que recibe el club Manchester City?",
-    "4-¿Cuál es el nombre del actual entrenador/director técnico del Manchester City?",
-    "5-¿Cuál de los siguientes porteros/arqueros juega para el Manchester City?"
+    "¿Cuál es el nombre actual del estadio/casa del Manchester City?",
+    "¿En que año se fundó el club?",
+    "¿Cuál es el apodo que recibe el club Manchester City?",
+    "¿Cuál es el nombre del actual entrenador/director técnico del Manchester City?",
+    "¿Cuál de los siguientes porteros/arqueros juega para el Manchester City?"
     ]
 
 OpcionesNivel1 = [

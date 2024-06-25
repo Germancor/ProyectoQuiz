@@ -18,7 +18,7 @@ def elegir_nivel(puntos):
             if opcion == 0:
                 print("Saliendo del juego...")
                 break
-        except:
+        except ValueError:
             print("\033[1;31;41m"+"Debe ingresar un número del 0 al 4"+'\033[0;m')
             time.sleep(3)
             continue
@@ -35,11 +35,15 @@ def elegir_nivel(puntos):
         
         if opcion == 1:
             print("Has elegido el nivel fácil. Comenzando juego...")
+            break
         elif opcion == 2:
             print("Has elegido el nivel medio. Comenzando juego...")
+            break
         elif opcion == 3:
             print("Has elegido el nivel difícil. Comenzando juego...")
+            break
         elif opcion == 4:
             print("Has elegido el nivel experto. Comenzando juego...")
+            break
         
     return opcion
