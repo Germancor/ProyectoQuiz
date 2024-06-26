@@ -43,7 +43,8 @@ def jugar_nivel(preguntas, opciones, respuestas_correctas, nivel):
     return puntos
 
 def jugar_juego():
-#***Ingresar clave para jugar***
+
+    #***Ingresar clave para jugar***
     clave = "manchester"
 
     while (True):
