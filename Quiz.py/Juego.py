@@ -62,7 +62,7 @@ def jugar_juego():
     inicio()
     limpieza_pantalla()
     while True:
-        mostrar_menu_niveles()
+        mostrar_menu_niveles(puntaje)
         nivel = elegir_nivel(puntaje)
         limpieza_pantalla()
     #***Jugar nivel seleccionado***

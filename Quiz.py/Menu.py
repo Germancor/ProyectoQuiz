@@ -2,9 +2,9 @@
 #Versión 2.0
 import time
 
-def mostrar_menu_niveles():
+def mostrar_menu_niveles(puntos):
     print("\033[1;37;40m"+"\n======= MENÚ DE NIVELES =======")
-    print("Por favor, elige un nivel:")
+    print("Por favor, elige un nivel:" + f"\tPuntos: {puntos}")
     print("1. Nivel fácil ")
     print("2. Nivel medio (Requiere más de 700 puntos)")
     print("3. Nivel difícil (Requiere más de 1400 puntos)")

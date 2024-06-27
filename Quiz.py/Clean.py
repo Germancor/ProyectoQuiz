@@ -5,7 +5,7 @@ import os
 import time
 
 def limpieza_pantalla():
-    time.sleep(5)
+    time.sleep(2)
     os.system('cls')
 
 #Llamado de funcion
