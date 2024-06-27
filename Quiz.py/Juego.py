@@ -39,7 +39,9 @@ def jugar_nivel(preguntas, opciones, respuestas_correctas, nivel):
             if continuar == 'm':
                 puntos = 0
                 return puntos
-    
+            
+        limpieza_pantalla()
+
     return puntos
 
 def jugar_juego():
@@ -54,14 +56,15 @@ def jugar_juego():
             break
         else:
             print("Contraseña incorecta")
+    limpieza_pantalla()
 
     puntaje = 0
     inicio()
     limpieza_pantalla()
     while True:
         mostrar_menu_niveles()
-        
         nivel = elegir_nivel(puntaje)
+        limpieza_pantalla()
     #***Jugar nivel seleccionado***
         if nivel == 0:
             break
