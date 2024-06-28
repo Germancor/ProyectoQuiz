@@ -55,7 +55,7 @@ def jugar_juego():
             print("Contraseña correcta")
             break
         else:
-            print("Contraseña incorecta")
+            print("Contraseña incorrecta")
     limpieza_pantalla()
 
     puntaje = 0
