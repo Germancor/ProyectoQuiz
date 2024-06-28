@@ -2,6 +2,9 @@ from Intro import *
 from Clean import *
 from Menu import *
 from Nivel1 import preguntasNivel1 as pn1, OpcionesNivel1 as on1, OpcionesCorrectas1 as oc1
+from Nivel2 import preguntasNivel2 as pn2, OpcionesNivel2 as on2, OpcionesCorrectas2 as oc2
+from Nivel3 import preguntasNivel3 as pn3, OpcionesNivel3 as on3, OpcionesCorrectas3 as oc3
+from Nivel4 import preguntasNivel4 as pn4, OpcionesNivel4 as on4, OpcionesCorrectas4 as oc4
 
     #***Desarrollo de nivel***
 def jugar_nivel(preguntas, opciones, respuestas_correctas, nivel):
@@ -70,12 +73,12 @@ def jugar_juego():
             break
         elif nivel == 1:
             puntaje += jugar_nivel(pn1,on1,oc1,"1")
-# elif nivel == 2:
-#     Puntaje = jugar_nivel(pn2,on2,oc2,"2")
-# elif nivel == 3:
-#     Puntaje = jugar_nivel(pn3,on3,oc3,"3")
-# elif nivel == 4:
-#     Puntaje = jugar_nivel(pn4,on4,oc4,"4")
+        elif nivel == 2:
+            Puntaje = jugar_nivel(pn2,on2,oc2,"2")
+        elif nivel == 3:
+            Puntaje = jugar_nivel(pn3,on3,oc3,"3")
+        elif nivel == 4:
+            Puntaje = jugar_nivel(pn4,on4,oc4,"4")
         
 
     print(f"\n¡Felicidades! Has completado el juego con un puntaje total de {puntaje} puntos.")
