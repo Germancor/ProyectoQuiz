@@ -74,11 +74,11 @@ def jugar_juego():
         elif nivel == 1:
             puntaje += jugar_nivel(pn1,on1,oc1,"1")
         elif nivel == 2:
-            Puntaje = jugar_nivel(pn2,on2,oc2,"2")
+            puntaje += jugar_nivel(pn2,on2,oc2,"2")
         elif nivel == 3:
-            Puntaje = jugar_nivel(pn3,on3,oc3,"3")
+            puntaje += jugar_nivel(pn3,on3,oc3,"3")
         elif nivel == 4:
-            Puntaje = jugar_nivel(pn4,on4,oc4,"4")
+            puntaje += jugar_nivel(pn4,on4,oc4,"4")
         
 
     print(f"\n¡Felicidades! Has completado el juego con un puntaje total de {puntaje} puntos.")
