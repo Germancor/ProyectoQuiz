@@ -21,7 +21,7 @@ OpcionesNivel2 = [
     ["1) 1-0","2) 2-1","3) 3-2","4) 4-3"],
     ["1) Pep Guardiola","2) Jurgen Klopp","3) Thomas Tuchel","4) Diego Simeone"],
     ["1) 54,693","2) 56,102","3) 61,553","4) 53,721"],
-    ["a) Raheem Sterling","b) Kevin De Bruyne","c) Ilkay Gundogan","d) Gabriel Jesus"],
+    ["1) Raheem Sterling","2) Kevin De Bruyne","3) Ilkay Gundogan","4) Gabriel Jesus"],
     ["1) Kevin de Bruyne","2) Erling Haaland","3) Phil Foden","4) Rodrigo Hernández"]
 ]
 
